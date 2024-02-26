@@ -1,0 +1,331 @@
+# Copyright (C) 2021 Connectix ood
+# This file is distributed under the same license as the Connectix plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Connectix 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/connectix\n"
+"Last-Translator: Alexander Dimitrov <alexander.dimitrov@connectix.bg>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-31T23:50:54+02:00\n"
+"PO-Revision-Date: 2021-01-31 23:50+02:00\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: connectix\n"
+
+msgid "heading_title"
+msgstr "Connectix"
+
+msgid "module_description"
+msgstr "Маркетинг съобщения"
+
+msgid "ask_title"
+msgstr "Сигурен ли сте?"
+
+msgid "ask_button_cancel"
+msgstr "Отмяна"
+
+msgid "ask_button_confirm"
+msgstr "Да, потвърждавам"
+
+# Settings
+msgid "settings_title"
+msgstr "Настройки на модула"
+
+msgid "settings_label_enabled"
+msgstr "Включено"
+
+msgid "settings_label_token"
+msgstr "Токен на приложение от Connectix"
+
+msgid "settings_token_placeholder"
+msgstr "Въведете токенът получен от Connectix"
+
+msgid "settings_token_already_entered"
+msgstr "Токенът е вече въведен"
+
+msgid "settings_add_contacts"
+msgstr "Добавяне на Контактите в Connectix"
+
+msgid "settings_track_delivery"
+msgstr "Проследи пратките с Еконт"
+
+msgid "settings_delivered_status"
+msgstr "Статус за доставена пратка"
+
+msgid "settings_delivered_status_help"
+msgstr "Системата автоматично ще смени статуса на доставените Ви пратки. Само изберете желан статус."
+
+msgid "settings_label_save"
+msgstr "Запази"
+
+msgid "settings_label_system"
+msgstr "Система"
+
+msgid "settings_label_system_sandbox"
+msgstr "За разработки (sandbox)"
+
+msgid "settings_label_system_live"
+msgstr "Продукционна (live)"
+
+msgid "settings_label_sandboxUrl"
+msgstr "Адрес за sandbox заявки"
+
+msgid "settings_label_sandboxUrl_help"
+msgstr "Това е адрес, който ще получава отговорите със статусите на съобщенията и входящите съобщения."
+
+msgid "settings_sandboxUrl_placeholder"
+msgstr "Примерно адрес генериран от https://webhook.site/"
+
+msgid "settings_label_confirmOrder"
+msgstr "Използвай потвърждение на поръчките"
+
+msgid "settings_label_confirmedOrderStatus"
+msgstr "Статус на потвърдените поръчки"
+
+msgid "settings_label_confirmedOrderStatus_help"
+msgstr "Избраният статус ще бъде зададен след потвърждение на поръчката"
+
+msgid "settings_label_confirmedOrderUrl"
+msgstr "Адрес след потвърждение"
+
+msgid "settings_label_confirmedOrderUrl_help"
+msgstr "Адрес, на който потребителя да бъде пренасочен след потвърждение"
+
+msgid "settings_label_cancelOrder"
+msgstr "Използвай отказване на поръчките"
+
+msgid "settings_label_canceledOrderStatus"
+msgstr "Статус на отказаните поръчки"
+
+msgid "settings_label_canceledOrderStatus_help"
+msgstr "Избраният статус ще бъде зададен след отказване на поръчката"
+
+msgid "settings_label_canceledOrderUrl"
+msgstr "Адрес след отказване"
+
+msgid "settings_label_canceledOrderUrl_help"
+msgstr "Адрес, на който потребителя да бъде пренасочен след отказване"
+
+msgid "settings_label_confirmationUrlsValidity"
+msgstr "Валидност на връзките за подвърждение/отказване на поръчките"
+
+msgid "settings_label_confirmationUrlsValidity_help"
+msgstr "Въведете колко часа да бъдат активни връзките. 0 или празно поле означава постоянно активно"
+
+msgid "settings_label_confirmationUrlsExpiredUrl"
+msgstr "Адрес след изтичане на връзките"
+
+msgid "settings_label_confirmationUrlsExpiredUrl_help"
+msgstr "Адрес, на който потребителя да бъде пренасочен след като връзките изтекът"
+
+# Templates
+msgid "templates_button"
+msgstr "Изтегли шаблоните от Connectix"
+
+msgid "templates_button_help"
+msgstr "Натиснете този бутон, за да изтеглите и обновите шаблоните си."
+
+msgid "templates_no_templates"
+msgstr "Няма какво да покажем сега."
+
+msgid "templates_status_pending"
+msgstr "В изчакване"
+
+msgid "templates_status_rejected"
+msgstr "Отхвърлен"
+
+msgid "templates_status_waiting_information"
+msgstr "Изчаква информация"
+
+msgid "templates_status_approved"
+msgstr "Одобрен"
+
+# Rules
+msgid "rules_adding_title"
+msgstr "Добавяне на ново правило"
+
+msgid "rules_editing_title"
+msgstr "Промяна на правило"
+
+msgid "rules_button"
+msgstr "Добави ново правило"
+
+msgid "rules_no_rules"
+msgstr "Няма какво да покажем сега. Все пак можете да използвате бутона горе за да добавите ново правило."
+
+msgid "rules_label_enabled"
+msgstr "Включено"
+
+msgid "rules_label_not_enabled"
+msgstr "Изключено"
+
+msgid "rules_label_fallback"
+msgstr "С резерва"
+
+msgid "rules_label_fallback_help"
+msgstr "Включете тази опция, ако желаете да използвате повече от един канал за уведомления.[1]Така ако сте избрали Viber, а получателят не може да получи съобщението,[1]автоматично ще му бъде изпратено известие по друг информационен канал, избран от Вас (например SMS)."
+
+msgid "rules_label_type"
+msgstr "Тип"
+
+msgid "rules_label_type_help"
+msgstr "Изберете при какво действие да се задейства системата за известия. Например при постъпване на нова поръчка и/или при пристигане на пратка в куриер. Изберете от възможните опции на падащото поле."
+
+msgid "rules_label_delivery_type"
+msgstr "Тип на доставката"
+
+msgid "rules_label_order_status"
+msgstr "Статус на поръчката"
+
+msgid "rules_label_add_template"
+msgstr "Добави шаблон"
+
+msgid "rules_label_add_another_template"
+msgstr "Добави друг шаблон"
+
+msgid "rules_label_days_not_picked_up"
+msgstr "Дни непотърсена пратка"
+
+msgid "rules_label_days_not_picked_up_help_example_header"
+msgstr "Пример"
+
+msgid "rules_label_days_not_picked_up_help_example"
+msgstr "Пратката е пристигнала в офис/куриер в Понеделник. При въведени 2 дни в полето за непотърсени пратки, то съобщението ще бъде изпратено в Сряда."
+
+msgid "rules_label_days_not_picked_up_help_note_header"
+msgstr "Забележка"
+
+msgid "rules_label_days_not_picked_up_help_note"
+msgstr "Броят се дните от Понеделник до Събота включително. Официалните празници не се броят."
+
+msgid "rules_label_cancel"
+msgstr "Отмени"
+
+msgid "rules_label_save"
+msgstr "Запази"
+
+msgid "rules_days"
+msgstr "Дни"
+
+msgid "rules_order_status_placeholder"
+msgstr "Избери статус на поръчка"
+
+msgid "rules_templates_placeholder"
+msgstr "Избери шаблон"
+
+msgid "rules_delivery_type_placeholder"
+msgstr "Избери вид доставка"
+
+msgid "rules_delivery_type_door"
+msgstr "До врата"
+
+msgid "rules_delivery_type_office"
+msgstr "До офис"
+
+msgid "rules_channel"
+msgstr "Канал"
+
+msgid "rules_template"
+msgstr "Шаблон"
+
+msgid "rules_actions"
+msgstr "Действия"
+
+msgid "rules_type_new_order"
+msgstr "Нова поръчка"
+
+msgid "rules_type_change_order_status"
+msgstr "Промяна в статуса на поръчката"
+
+msgid "rules_type_ready_for_delivery"
+msgstr "Пратката е готова за доставка"
+
+msgid "rules_type_change_not_picked_up"
+msgstr "Непотърсени пратки"
+
+msgid "rules_type_placeholder"
+msgstr "Избери вид"
+
+msgid "rules_status_pending"
+msgstr "В изчакване"
+
+msgid "rules_status_rejected"
+msgstr "Отхвърлен"
+
+msgid "rules_status_waiting_information"
+msgstr "Изчаква информация"
+
+msgid "rules_status_approved"
+msgstr "Одобрен"
+
+# Display order messages column
+msgid "title"
+msgstr "Съобщения от Connectix"
+
+msgid "no_messages"
+msgstr "Няма съобщения към тази поръчка"
+
+msgid "fallback"
+msgstr "С резерва"
+
+msgid "type"
+msgstr "Вид"
+
+msgid "channel"
+msgstr "Канал"
+
+msgid "status"
+msgstr "Статус"
+
+msgid "created_at"
+msgstr "Създадено на"
+
+msgid "new_order"
+msgstr "Нова поръчка"
+
+msgid "change_order_status"
+msgstr "Промяна на статуса на поръчка"
+
+msgid "ready_for_delivery"
+msgstr "Пратката е готова за доставка"
+
+msgid "not_picked_up"
+msgstr "Непотърсени пратки"
+
+msgid "message_status_processing"
+msgstr "Обработва се"
+
+msgid "message_status_received"
+msgstr "Получено"
+
+msgid "message_status_pending"
+msgstr "В изчакване"
+
+msgid "message_status_failed"
+msgstr "Провалено"
+
+msgid "message_status_undelivered"
+msgstr "Недоставено"
+
+msgid "message_status_delivered"
+msgstr "Доставено"
+
+msgid "message_status_sent"
+msgstr "Изпратено"
+
+msgid "message_status_seen"
+msgstr "Видяно"
+
+msgid "yes"
+msgstr "Да"
+
+msgid "no"
+msgstr "Не"
+
+msgid "close"
+msgstr "Затвори"
+
+msgid "open_viber"
+msgstr "Отвори Viber"

@@ -1,0 +1,35 @@
+.ctx-table th.text-left,
+.ctx-table td.text-center {
+	text-align: left !important;
+}
+
+.ctx-table th.text-center,
+.ctx-table td.text-center {
+	text-align: center !important;
+}
+
+.flex {
+	display: flex;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.bg-white {
+	background: white;
+}
+
+.padding {
+	padding: 0.5em;
+}
+
+.margin-y {
+	margin: 0.5em 0;
+}
+
+.section,
+aside {
+	background: white;
+	padding: 1em;
+}

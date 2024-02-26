@@ -1,0 +1,331 @@
+# Copyright (C) 2021 Connectix ood
+# This file is distributed under the same license as the Connectix plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Connectix 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/connectix\n"
+"Last-Translator: Alexander Dimitrov <alexander.dimitrov@connectix.bg>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-31T23:50:54+02:00\n"
+"PO-Revision-Date: 2021-01-31 23:50+02:00\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: connectix\n"
+
+msgid "heading_title"
+msgstr "Connectix"
+
+msgid "module_description"
+msgstr "Messaging marketing"
+
+msgid "ask_title"
+msgstr "Are you sure?"
+
+msgid "ask_button_cancel"
+msgstr "Cancel"
+
+msgid "ask_button_confirm"
+msgstr "Yes, I confirm"
+
+# Settings
+msgid "settings_title"
+msgstr "Module settings"
+
+msgid "settings_label_enabled"
+msgstr "Enabled"
+
+msgid "settings_label_token"
+msgstr "Application token from Connectix"
+
+msgid "settings_token_placeholder"
+msgstr "Enter the token obtained from Connectix"
+
+msgid "settings_token_already_entered"
+msgstr "The token is already entered"
+
+msgid "settings_add_contacts"
+msgstr "Add contacts in Connectix"
+
+msgid "settings_track_delivery"
+msgstr "Track delivery with Econt"
+
+msgid "settings_delivered_status"
+msgstr "Delivered status"
+
+msgid "settings_delivered_status_help"
+msgstr "The system will change the status to your delivered shipments automatically. Just choose the status."
+
+msgid "settings_label_save"
+msgstr "Save"
+
+msgid "settings_label_system"
+msgstr "System"
+
+msgid "settings_label_system_sandbox"
+msgstr "Sandbox"
+
+msgid "settings_label_system_live"
+msgstr "Live"
+
+msgid "settings_label_sandboxUrl"
+msgstr "Address for sandbox callbacks"
+
+msgid "settings_label_sandboxUrl_help"
+msgstr "This is an address which will receive callbacks for statuses for the messages and inbound messages."
+
+msgid "settings_sandboxUrl_placeholder"
+msgstr "For example an address generated from https://webhook.site/"
+
+msgid "settings_label_confirmOrder"
+msgstr "Use order confirmation"
+
+msgid "settings_label_confirmedOrderStatus"
+msgstr "Status for confirmed orders"
+
+msgid "settings_label_confirmedOrderStatus_help"
+msgstr "The chosen status will be set after the order confirmation"
+
+msgid "settings_label_confirmedOrderUrl"
+msgstr "Address after confirmation"
+
+msgid "settings_label_confirmedOrderUrl_help"
+msgstr "Address in which the client will be redirected after confirmation"
+
+msgid "settings_label_cancelOrder"
+msgstr "Use order cancellation"
+
+msgid "settings_label_canceledOrderStatus"
+msgstr "Status for canceled orders"
+
+msgid "settings_label_canceledOrderStatus_help"
+msgstr "The chosen status will be set after the order cancellation"
+
+msgid "settings_label_canceledOrderUrl"
+msgstr "Address after cancellation"
+
+msgid "settings_label_canceledOrderUrl_help"
+msgstr "Address in which the client will be redirected after cancellation"
+
+msgid "settings_label_confirmationUrlsValidity"
+msgstr "Validity of the links for confirmation/cancellation of the orders"
+
+msgid "settings_label_confirmationUrlsValidity_help"
+msgstr "Enter how many hours the links to be active. 0 or empty field means always active"
+
+msgid "settings_label_confirmationUrlsExpiredUrl"
+msgstr "Address after the links expire"
+
+msgid "settings_label_confirmationUrlsExpiredUrl_help"
+msgstr "Address in which the client will be redirected after links expire"
+
+# Templates
+msgid "templates_button"
+msgstr "Fetch templates from Connectix"
+
+msgid "templates_button_help"
+msgstr "Click this button to fetch and refresh your templates"
+
+msgid "templates_no_templates"
+msgstr "There is nothing to show right now."
+
+msgid "templates_status_pending"
+msgstr "Pending"
+
+msgid "templates_status_rejected"
+msgstr "Rejected"
+
+msgid "templates_status_waiting_information"
+msgstr "Waiting information"
+
+msgid "templates_status_approved"
+msgstr "Approved"
+
+# Rules
+msgid "rules_adding_title"
+msgstr "Adding new rule"
+
+msgid "rules_editing_title"
+msgstr "Editing rule"
+
+msgid "rules_button"
+msgstr "Add new rule"
+
+msgid "rules_no_rules"
+msgstr "There is nothing to show right now. You can still use the button above to add new Rule."
+
+msgid "rules_label_enabled"
+msgstr "Enabled"
+
+msgid "rules_label_not_enabled"
+msgstr "Not enabled"
+
+msgid "rules_label_fallback"
+msgstr "Fallback"
+
+msgid "rules_label_fallback_help"
+msgstr "Enable this option if you wish to use more than one channel.[1]This way if you choose Viber, but the recipient could not receive your message,[1]then automatically another message will be send via other notification channel chosen by you (example SMS)."
+
+msgid "rules_label_type"
+msgstr "Type"
+
+msgid "rules_label_type_help"
+msgstr "Choose in what event to be triggered the system for notifications. For example when a new order is placed and/or the shipment arrived in the carrier. Choose an option from the dropdown."
+
+msgid "rules_label_delivery_type"
+msgstr "Delivery type"
+
+msgid "rules_label_order_status"
+msgstr "Order status"
+
+msgid "rules_label_add_template"
+msgstr "Add template"
+
+msgid "rules_label_add_another_template"
+msgstr "Add another template"
+
+msgid "rules_label_days_not_picked_up"
+msgstr "Days not picked up"
+
+msgid "rules_label_days_not_picked_up_help_example_header"
+msgstr "Example"
+
+msgid "rules_label_days_not_picked_up_help_example"
+msgstr "The shipment is in the carrier office/delivery person in Monday. If 2 days are entered in the field for Days not picked up, then the message will be send on Wednesday."
+
+msgid "rules_label_days_not_picked_up_help_note_header"
+msgstr "Note"
+
+msgid "rules_label_days_not_picked_up_help_note"
+msgstr "The number of days from Monday till Saturday including. The officials holidays are not counted."
+
+msgid "rules_label_cancel"
+msgstr "Cancel"
+
+msgid "rules_label_save"
+msgstr "Save"
+
+msgid "rules_days"
+msgstr "Days"
+
+msgid "rules_order_status_placeholder"
+msgstr "Select an order status"
+
+msgid "rules_templates_placeholder"
+msgstr "Select a template"
+
+msgid "rules_delivery_type_placeholder"
+msgstr "Select a delivery type"
+
+msgid "rules_delivery_type_door"
+msgstr "To door"
+
+msgid "rules_delivery_type_office"
+msgstr "To office"
+
+msgid "rules_channel"
+msgstr "Channel"
+
+msgid "rules_template"
+msgstr "Template"
+
+msgid "rules_actions"
+msgstr "Actions"
+
+msgid "rules_type_new_order"
+msgstr "New order"
+
+msgid "rules_type_change_order_status"
+msgstr "Change in order status"
+
+msgid "rules_type_ready_for_delivery"
+msgstr "Ready for delivery"
+
+msgid "rules_type_change_not_picked_up"
+msgstr "Not picked up"
+
+msgid "rules_type_placeholder"
+msgstr "Select a type"
+
+msgid "rules_status_pending"
+msgstr "Pending"
+
+msgid "rules_status_rejected"
+msgstr "Rejected"
+
+msgid "rules_status_waiting_information"
+msgstr "Waiting information"
+
+msgid "rules_status_approved"
+msgstr "Approved"
+
+# Display order messages column
+msgid "title"
+msgstr "Connectix Messages"
+
+msgid "no_messages"
+msgstr "There are no messages for this order"
+
+msgid "fallback"
+msgstr "Fallback"
+
+msgid "type"
+msgstr "Type"
+
+msgid "channel"
+msgstr "Channel"
+
+msgid "status"
+msgstr "Status"
+
+msgid "created_at"
+msgstr "Created at"
+
+msgid "new_order"
+msgstr "New order"
+
+msgid "change_order_status"
+msgstr "Change in order status"
+
+msgid "ready_for_delivery"
+msgstr "Ready for delivery"
+
+msgid "not_picked_up"
+msgstr "Not picked up"
+
+msgid "message_status_processing"
+msgstr "Processing"
+
+msgid "message_status_received"
+msgstr "Received"
+
+msgid "message_status_pending"
+msgstr "Pending"
+
+msgid "message_status_failed"
+msgstr "Failed"
+
+msgid "message_status_undelivered"
+msgstr "Undelivered"
+
+msgid "message_status_delivered"
+msgstr "Delivered"
+
+msgid "message_status_sent"
+msgstr "Sent"
+
+msgid "message_status_seen"
+msgstr "Seen"
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "no"
+msgstr "No"
+
+msgid "close"
+msgstr "Close"
+
+msgid "open_viber"
+msgstr "Open Viber"

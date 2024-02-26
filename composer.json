@@ -1,0 +1,24 @@
+{
+    "name": "givanov95/form-shop",
+    "description": "Custom shop based on forms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Georgi Ivanov",
+            "email": "joroz95@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Plugin\\": "./",
+            "Plugin\\Admin\\": "admin/src/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
