@@ -1,0 +1,10 @@
+/vendor/
+/node_modules/
+/dist/
+
+.vite-dev
+
+*.log
+.DS_Store
+.idea/
+.vscode/
