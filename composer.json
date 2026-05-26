@@ -29,9 +29,13 @@
     "config": {
         "sort-packages": true,
         "allow-plugins": {
-            "composer/installers": true
+            "composer/installers": true,
+            "givanov95/laravel-git-hooks": true
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "givanov95/laravel-git-hooks": "^0.1.0"
+    }
 }

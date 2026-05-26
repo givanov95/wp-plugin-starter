@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2258b907399a6cee495a82e9a88c261e",
+    "content-hash": "0280ba164927da42cf8abff7fd3ed50a",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -81,12 +81,13 @@
             "dist": {
                 "type": "path",
                 "url": "../wp-plugin-core",
-                "reference": "3e3204c0dd796323da29faf01c8cd5cb734f8435"
+                "reference": "7cd13624a5e654cc85d4f3d68c8259d7412d6513"
             },
             "require": {
                 "php": ">=8.3"
             },
             "require-dev": {
+                "givanov95/laravel-git-hooks": "^0.1.0",
                 "guzzlehttp/guzzle": "^7.9",
                 "symfony/var-dumper": "^7.3"
             },
@@ -909,7 +910,68 @@
             "time": "2026-01-05T13:30:16+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "givanov95/laravel-git-hooks",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/givanov95/laravel-git-hooks.git",
+                "reference": "ef670c8304f9fbafa05bfedf2c54c27c0c23b974"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/givanov95/laravel-git-hooks/zipball/ef670c8304f9fbafa05bfedf2c54c27c0c23b974",
+                "reference": "ef670c8304f9fbafa05bfedf2c54c27c0c23b974",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "composer/composer": "^2.5",
+                "phpunit/phpunit": "^11.0|^12.0"
+            },
+            "bin": [
+                "bin/laravel-git-hooks"
+            ],
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Givanov95\\LaravelGitHooks\\HookInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Givanov95\\LaravelGitHooks\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Georgi Ivanov"
+                }
+            ],
+            "description": "Composer plugin that installs a pre-commit git hook into Laravel + Vite projects — runs php-cs-fixer, a debug-statement guard, the Vite build (on frontend changes) and the test suite before each commit. Bypass with --no-verify.",
+            "keywords": [
+                "composer-plugin",
+                "git",
+                "hooks",
+                "laravel",
+                "phpunit",
+                "pre-commit",
+                "quality",
+                "vite"
+            ],
+            "support": {
+                "issues": "https://github.com/givanov95/laravel-git-hooks/issues",
+                "source": "https://github.com/givanov95/laravel-git-hooks/tree/v0.1.0"
+            },
+            "time": "2026-05-26T07:56:23+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
