@@ -36,6 +36,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
-        "givanov95/laravel-git-hooks": "^0.1.0"
+        "givanov95/laravel-git-hooks": "^0.1.0",
+        "phpunit/phpunit": "^11.0"
     }
 }
