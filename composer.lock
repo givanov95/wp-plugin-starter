@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4cc99ae56e519db6a9d160cbf977501",
+    "content-hash": "5c343e59a2a6c18579ecce8dfc75edad",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -81,7 +81,7 @@
             "dist": {
                 "type": "path",
                 "url": "../wp-plugin-core",
-                "reference": "0c1a12b1a18b810a576be417c9ee5efed439d19a"
+                "reference": "1a762da72f7fed12ba755efd3c1ad9e99b74dd74"
             },
             "require": {
                 "php": ">=8.3"
@@ -914,21 +914,21 @@
     "packages-dev": [
         {
             "name": "givanov95/laravel-git-hooks",
-            "version": "v0.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/givanov95/laravel-git-hooks.git",
-                "reference": "ef670c8304f9fbafa05bfedf2c54c27c0c23b974"
+                "reference": "19a777f99fa3ab2ea73b8ec5fdb68e383f27676b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/givanov95/laravel-git-hooks/zipball/ef670c8304f9fbafa05bfedf2c54c27c0c23b974",
-                "reference": "ef670c8304f9fbafa05bfedf2c54c27c0c23b974",
+                "url": "https://api.github.com/repos/givanov95/laravel-git-hooks/zipball/19a777f99fa3ab2ea73b8ec5fdb68e383f27676b",
+                "reference": "19a777f99fa3ab2ea73b8ec5fdb68e383f27676b",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^2.0",
-                "php": "^8.3"
+                "php": "^8.2"
             },
             "require-dev": {
                 "composer/composer": "^2.5",
@@ -968,9 +968,9 @@
             ],
             "support": {
                 "issues": "https://github.com/givanov95/laravel-git-hooks/issues",
-                "source": "https://github.com/givanov95/laravel-git-hooks/tree/v0.1.0"
+                "source": "https://github.com/givanov95/laravel-git-hooks/tree/v1.1.1"
             },
-            "time": "2026-05-26T07:56:23+00:00"
+            "time": "2026-06-23T10:29:00+00:00"
         },
         {
             "name": "myclabs/deep-copy",
